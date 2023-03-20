@@ -2,17 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 body {
-  min-height: 100vh;
-  position: relative;
-  background-attachment: fixed;
+  min-height: 90vh;
 }
 
 video {
   position: absolute;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
@@ -22,18 +21,29 @@ video {
 
 .div-container-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding:20px;
+  padding: 20px;
   padding-left: 30px;
   padding-right: 30px;
   position: relative;
   z-index: 1;
+  border-radius: 10px;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .div-container-header img {
+  display: flex;
+  justify-content: center;
   padding: 5px;
-  width: 400px;
+  width: 250px;
 }
 
 .left-containerInside {
@@ -43,6 +53,8 @@ video {
 
 .left-containerInside ul {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
   gap: 50px;
   color: #e9e8e8;
@@ -50,5 +62,5 @@ video {
 }
 
 .left-containerInside ul li {
-  font-size: 40px;
+  font-size: 25px;
 }
