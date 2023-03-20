@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   font-family: "Kanit", sans-serif;
 }
 
@@ -10,14 +10,17 @@ body {
 }
 
 video {
-  position: absolute;
+  position: fixed;
   display: flex;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
+
+/*header styles*/
 
 .div-container-header {
   display: flex;
@@ -25,17 +28,14 @@ video {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
   position: relative;
   z-index: 1;
   border-radius: 10px;
   margin: 10px;
   background: rgba(0, 0, 0, 0.45);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.719);
   backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -64,4 +64,38 @@ video {
 
 .left-containerInside ul li {
   font-size: 25px;
+}
+
+
+/*main styles*/
+
+#container {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  
+
+}
+.cardCharacters {
+
+  width: 220px;
+  background-color: yellow;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px -2px 38px -8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px -2px 38px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px -2px 38px -8px rgba(0,0,0,0.75);
+}
+
+.cardCharacters img {
+
+  width: 100%;
+  border-radius: 50%;
+
 }
