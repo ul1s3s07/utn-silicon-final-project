@@ -43,7 +43,7 @@ video {
   display: flex;
   justify-content: center;
   padding: 5px;
-  width: 250px;
+  width: 20%;
 }
 
 .left-containerInside {
