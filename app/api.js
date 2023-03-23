@@ -27,7 +27,7 @@ apiCall
                 <img src=${characters[i].image}
                 alt='character img'
                 />
-                <h2>${characters[i].name}</h2>
+                <h2 class='name'>${characters[i].name}</h2>
                 <p>Gender: ${characters[i].gender}</p>
                 <p>Species: ${characters[i].species}</p>
                 <p>Status: ${characters[i].status}</p>
