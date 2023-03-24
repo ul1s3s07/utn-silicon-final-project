@@ -15,16 +15,18 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 0;
 }
 
-/*header styles*/
-
-header {
-  padding: 20px;
+.hedi {
+  padding: 20px 20px 0px 20px;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
+  gap: 20px;
 }
 
 .div-container-header {
@@ -58,7 +60,7 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
-  gap: 50px;
+  gap: 20px;
   color: #e9e8e8;
   font-size: 25px;
   text-shadow: 3px -3px 30px rgb(2, 177, 200);
@@ -69,17 +71,19 @@ main {
 #container {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 40px;
+  padding: 20px;
   justify-content: center;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
 }
 .cardCharacters {
   width: 220px;
   background-color: rgba(0, 0, 0, 0.521);
-  padding: 20px;
   text-align: center;
   color: #e9e8e8;
+  padding: 20px;
   border: 1px solid white;
   border-radius: 10px;
   box-shadow: 2px -2px 38px -8px rgba(0, 0, 0, 0.75);
@@ -94,7 +98,72 @@ main {
   border: 3px solid white;
 }
 
-.name {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.div-container-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.719);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.div-inside {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.div-inside2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-inside h2 {
+  color: #e9e8e8;
+  font-size: 25px;
+  text-shadow: 3px -3px 30px rgb(2, 177, 200);
+}
+
+.div-inside p {
+  color: #e9e8e8;
+  font-size: 18px;
+}
+
+iframe {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+h2 {
+  color: #e9e8e8;
+  font-size: 25px;
+  text-shadow: 3px -3px 30px rgb(2, 177, 200);
+  position: relative;
+}
+
+.div-characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.719);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 20px;
+}
+
+.div-characters h2 {
 }
