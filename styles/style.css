@@ -87,14 +87,14 @@ main {
   -moz-box-shadow: 2px -2px 38px -8px rgba(0, 0, 0, 0.75);
 }
 
-.name {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.cardImage {
+.cardCharacters img {
   width: 100%;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   border: 3px solid white;
 }
 
+.name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
