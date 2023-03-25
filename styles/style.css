@@ -34,8 +34,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  z-index: 1;
   background: rgba(0, 0, 0, 0.45);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.719);
@@ -74,8 +72,6 @@ main {
   gap: 40px;
   padding: 20px;
   justify-content: center;
-  position: relative;
-  z-index: 1;
   box-sizing: border-box;
 }
 .cardCharacters {
@@ -102,8 +98,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: relative;
-  z-index: 1;
   padding: 20px;
   background: rgba(0, 0, 0, 0.45);
   border-radius: 10px;
@@ -148,15 +142,12 @@ h2 {
   color: #e9e8e8;
   font-size: 25px;
   text-shadow: 3px -3px 30px rgb(2, 177, 200);
-  position: relative;
 }
 
 .div-characters {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
-  z-index: 1;
   background: rgba(0, 0, 0, 0.45);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.719);
@@ -165,5 +156,32 @@ h2 {
   padding: 20px;
 }
 
-.div-characters h2 {
+.div-epi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.719);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 20px;
+}
+.hedi2 {
+  padding: 0px 20px 20px 20px;
+}
+.icoHBO {
+  width: 200px;
+  border-radius: 10%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e9e8e8;
+  font-size: 18px;
+  gap: 20px;
 }
