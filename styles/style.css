@@ -28,7 +28,7 @@ video {
   right: 35px;
   bottom: 30px;
 }
-.hedi {
+.hed {
   padding: 20px 20px 0px 20px;
 }
 
@@ -86,7 +86,6 @@ main {
   gap: 40px;
   padding: 20px;
   justify-content: center;
-  box-sizing: border-box;
 }
 .cardCharacters {
   width: 220px;
@@ -96,9 +95,6 @@ main {
   padding: 20px;
   border: 1px solid white;
   border-radius: 10px;
-  box-shadow: 2px -2px 38px -8px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 2px -2px 38px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px -2px 38px -8px rgba(0, 0, 0, 0.75);
 }
 
 .cardCharacters img {
@@ -170,7 +166,7 @@ h2 {
   padding: 20px;
 }
 
-.div-epi {
+.div-episodes {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +179,7 @@ h2 {
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 20px;
 }
-.hedi2 {
+.foot {
   padding: 0px 20px 20px 20px;
 }
 .icoHBO {
@@ -198,4 +194,63 @@ footer {
   color: #e9e8e8;
   font-size: 18px;
   gap: 20px;
+}
+
+@media (max-width: 1253px) {
+  .div-container-main {
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  #container {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    gap: 20px;
+    justify-content: start;
+  }
+  .cardCharacters img {
+    width: 150px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 3px solid white;
+  }
+}
+
+@media (max-width: 800px) {
+  .div-container-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .left-containerInside ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 490px) {
+  .div-inside {
+    width: 430px;
+  }
+
+  .div-inside2 iframe {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .div-inside2 iframe {
+    width: 300px;
+  }
+}
+
+@media (max-width: 340px) {
+  .div-inside2 iframe {
+    width: 200px;
+  }
 }
