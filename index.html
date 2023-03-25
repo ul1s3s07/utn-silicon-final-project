@@ -14,6 +14,7 @@
     />
     <title>Rick & Morty API</title>
   </head>
+
   <body>
     <video muted autoplay loop>
       <source
@@ -21,15 +22,18 @@
         type="video/mp4"
       />
     </video>
-    <div class="hedi">
+    <a class="arrow" href="#init"
+      ><img class="arrow" src="./src/up-arrow.png" alt=""
+    /></a>
+    <div class="hedi" id="init">
       <header>
         <div class="div-container-header">
           <img src="./src/pngegg.png" alt="" />
           <div class="left-containerInside">
             <ul>
-              <li>WELCOME</li>
-              <li>CHARACTERS</li>
-              <li>EPISODES</li>
+              <li><a class="a3" href="#welcome">WELCOME</a></li>
+              <li><a class="a3" href="#characters">CHARACTERS</a></li>
+              <li><a class="a3" href="#episodes">EPISODES</a></li>
             </ul>
           </div>
         </div>
@@ -37,7 +41,7 @@
     </div>
     <main>
       <div class="div-container-main">
-        <div class="div-inside">
+        <div class="div-inside" id="welcome">
           <h2>WELCOME</h2>
           <p>
             Rick and Morty is the Emmy award-winning half-hour animated hit
@@ -61,17 +65,18 @@
           ></iframe>
         </div>
       </div>
-      <div class="div-characters">
+      <div class="div-characters" id="characters">
         <h2>CHARACTERS</h2>
         <div id="container"></div>
       </div>
       <div class="div-epi">
-        <div class="div-inside">
+        <div class="div-inside" id="episodes">
           <h2>EPISODES</h2>
           <a
             href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1"
-            ><p>Watch all 6 seasons on HBOmax</p></a
           >
+            <p>Watch all 6 seasons on HBOmax</p>
+          </a>
         </div>
 
         <img

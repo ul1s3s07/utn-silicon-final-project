@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   min-height: 100vh;
@@ -17,7 +20,14 @@ video {
   object-fit: cover;
   z-index: 0;
 }
-
+.arrow {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 60px;
+  right: 35px;
+  bottom: 30px;
+}
 .hedi {
   padding: 20px 20px 0px 20px;
 }
@@ -59,6 +69,10 @@ main {
   flex-wrap: wrap;
   list-style: none;
   gap: 20px;
+}
+
+.a3 {
+  text-decoration: none;
   color: #e9e8e8;
   font-size: 25px;
   text-shadow: 3px -3px 30px rgb(2, 177, 200);
