@@ -14,83 +14,90 @@
     />
     <title>Rick & Morty API</title>
   </head>
-
   <body>
-    <video muted autoplay loop>
-      <source src="./src/video_background.mp4" type="video/mp4" />
-    </video>
-    <a class="arrow" href="#init"
-      ><img class="arrow" src="./src/up-arrow.png" alt=""
-    /></a>
-    <div class="hed" id="init">
-      <header>
+    <article>
+      <video muted autoplay loop>
+        <source src="./src/video_background.mp4" type="video/mp4" />
+      </video>
+      <a class="arrow" href="#init"
+        ><img class="arrow" src="./src/up-arrow.png" alt=""
+      /></a>
+    </article>
+    <header>
+      
+      <div class="hed" id="init">
         <div class="div-container-header">
           <img src="./src/pngegg.png" alt="" />
-          <div class="left-containerInside">
+          <nav class="left-containerInside">
             <ul>
               <li><a class="a3" href="#welcome">WELCOME</a></li>
               <li><a class="a3" href="#characters">CHARACTERS</a></li>
               <li><a class="a3" href="#episodes">EPISODES</a></li>
             </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="div-container-main">
+          <article class="div-inside" id="welcome">
+            <h2>WELCOME</h2>
+            <p>
+              Rick and Morty is the Emmy award-winning half-hour animated hit
+              comedy series on Adult Swim that follows a sociopathic genius
+              scientist who drags his inherently timid grandson on insanely
+              dangerous adventures across the universe. Rick Sanchez is living
+              with his daughter Beth’s family and constantly bringing her, his
+              son-in-law Jerry, granddaughter Summer, and grandson Morty into
+              intergalactic escapades.
+            </p>
+          </article>
+          <div class="div-inside2">
+            <iframe
+              width="410"
+              height="215"
+              src="https://www.youtube.com/embed/E8cXKMR9a1Q"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
-      </header>
-    </div>
-    <main>
-      <div class="div-container-main">
-        <div class="div-inside" id="welcome">
-          <h2>WELCOME</h2>
-          <p>
-            Rick and Morty is the Emmy award-winning half-hour animated hit
-            comedy series on Adult Swim that follows a sociopathic genius
-            scientist who drags his inherently timid grandson on insanely
-            dangerous adventures across the universe. Rick Sanchez is living
-            with his daughter Beth’s family and constantly bringing her, his
-            son-in-law Jerry, granddaughter Summer, and grandson Morty into
-            intergalactic escapades.
-          </p>
+      </section>
+      <section>
+        <article class="div-characters" id="characters">
+          <h2>CHARACTERS</h2>
+          <div id="container"></div>
+        </article>
+      </section>
+      <section>
+        <div class="div-episodes">
+          <article class="div-inside" id="episodes">
+            <h2>EPISODES</h2>
+            <a
+              href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1"
+            >
+              <p>Watch all 6 seasons on HBOmax</p>
+            </a>
+          </article>
+          <img
+            src="./src/square social logo 400 x 400_0.webp"
+            alt="hbo icon"
+            class="icoHBO"
+          />
         </div>
-        <div class="div-inside2">
-          <iframe
-            width="410"
-            height="215"
-            src="https://www.youtube.com/embed/E8cXKMR9a1Q"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-      <div class="div-characters" id="characters">
-        <h2>CHARACTERS</h2>
-        <div id="container"></div>
-      </div>
-      <div class="div-episodes">
-        <div class="div-inside" id="episodes">
-          <h2>EPISODES</h2>
-          <a
-            href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1"
-          >
-            <p>Watch all 6 seasons on HBOmax</p>
-          </a>
-        </div>
-
-        <img
-          src="./src/square social logo 400 x 400_0.webp"
-          alt="hbo icon"
-          class="icoHBO"
-        />
-      </div>
+      </section>
     </main>
-    <div class="foot">
-      <footer class="div-characters">
+    <footer class="foot">
+      <section class="div-characters foot1">
         <h3>Bootcamp Frontend - UTN & Silicon Misiones</h3>
         <p>Profesor: Alberini Gabriel</p>
         <p>Alumno: Pedrozo Ulises</p>
         <p>Copyright © 2023 - Developed by Ulises Pedrozo</p>
-      </footer>
-    </div>
+      </section>
+    </footer>
     <script src="app/api.js"></script>
   </body>
 </html>

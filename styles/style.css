@@ -125,35 +125,29 @@ main {
   flex-wrap: wrap;
   gap: 40px;
 }
-
 .div-inside2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .div-inside h2 {
   color: #e9e8e8;
   font-size: 25px;
   text-shadow: 3px -3px 30px rgb(2, 177, 200);
 }
-
 .div-inside p {
   color: #e9e8e8;
   font-size: 18px;
 }
-
 iframe {
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 10px;
 }
-
 h2 {
   color: #e9e8e8;
   font-size: 25px;
   text-shadow: 3px -3px 30px rgb(2, 177, 200);
 }
-
 .div-characters {
   display: flex;
   flex-wrap: wrap;
@@ -165,7 +159,6 @@ h2 {
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 20px;
 }
-
 .div-episodes {
   display: flex;
   justify-content: center;
@@ -186,16 +179,15 @@ h2 {
   width: 200px;
   border-radius: 10%;
 }
-
-footer {
+.foot1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   color: #e9e8e8;
   font-size: 18px;
   gap: 20px;
 }
-
 @media (max-width: 1253px) {
   .div-container-main {
     justify-content: center;
@@ -203,7 +195,6 @@ footer {
     text-align: center;
   }
 }
-
 @media (max-width: 1000px) {
   #container {
     flex-wrap: nowrap;
@@ -219,20 +210,17 @@ footer {
     border: 3px solid white;
   }
 }
-
 @media (max-width: 800px) {
   .div-container-header {
     flex-direction: column;
   }
 }
-
 @media (max-width: 600px) {
   .left-containerInside ul {
     flex-direction: column;
     align-items: center;
   }
 }
-
 @media (max-width: 490px) {
   .div-inside {
     width: 430px;
@@ -242,13 +230,11 @@ footer {
     width: 350px;
   }
 }
-
 @media (max-width: 400px) {
   .div-inside2 iframe {
     width: 300px;
   }
 }
-
 @media (max-width: 340px) {
   .div-inside2 iframe {
     width: 200px;

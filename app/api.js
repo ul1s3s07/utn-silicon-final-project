@@ -43,4 +43,4 @@ apiCall
         console.log(err);
     });
 
-    alert('Cuando la página alcanza los 1000px de ancho, las cards de los personajes adquieren un scroll horizontal, no es que se rompe (lo aclaro por un alert porque quizás no se llegue a percibir a simple vista.)');
+alert('Cuando la página alcanza los 1000px de ancho, las cards de los personajes adquieren un scroll horizontal, no es que se rompe (lo aclaro por un alert porque quizás no se llegue a percibir a simple vista.)');
