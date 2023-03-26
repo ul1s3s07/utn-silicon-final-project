@@ -7,11 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   min-height: 100vh;
 }
-
 video {
   position: fixed;
   display: flex;
@@ -31,14 +29,12 @@ video {
 .hed {
   padding: 20px 20px 0px 20px;
 }
-
 main {
   display: flex;
   flex-direction: column;
   padding: 20px;
   gap: 20px;
 }
-
 .div-container-header {
   display: flex;
   flex-wrap: wrap;
@@ -50,19 +46,16 @@ main {
   backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
-
 .div-container-header img {
   display: flex;
   justify-content: center;
   width: 250px;
   padding: 20px;
 }
-
 .left-containerInside {
   display: flex;
   padding: 20px;
 }
-
 .left-containerInside ul {
   display: flex;
   justify-content: center;
@@ -70,7 +63,6 @@ main {
   list-style: none;
   gap: 20px;
 }
-
 .a3 {
   text-decoration: none;
   color: #e9e8e8;
@@ -103,7 +95,6 @@ main {
   border-top-right-radius: 50px;
   border: 3px solid white;
 }
-
 .div-container-main {
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +106,6 @@ main {
   backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
-
 .div-inside {
   width: 65%;
   display: flex;
