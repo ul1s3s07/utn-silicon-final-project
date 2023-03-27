@@ -210,6 +210,21 @@ h2 {
     flex-direction: column;
     align-items: center;
   }
+  .a3 {
+    font-size: 17px;
+  }
+  .div-inside h2 {
+    font-size: 17px;
+  }
+  .div-characters h2 {
+    font-size: 17px;
+  }
+  .div-inside p {
+    font-size: 15px;
+  }
+  .foot1 {
+    font-size: 15px;
+  }
 }
 @media (max-width: 490px) {
   .div-inside {
